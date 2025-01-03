@@ -1,0 +1,36 @@
+body {
+  background-color: #f0f8ff;
+  padding: 2rem;
+}
+
+div {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: larger;
+}
+
+.main {
+  background-color: #fff;
+  width: 55rem;
+  margin-top: .5rem;
+}
+
+.button {
+  background-color: #ececec;
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.button:hover {
+  background-color: #8eccfb;
+}
+
+.button:active {
+  background-color: #48affe;
+  transform: scale(1.05);
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

@@ -1,0 +1,33 @@
+{
+  "name": "calculating_the_cost_of_delivery",
+  "version": "1.0.0",
+  "description": "Функция вычисляет стоимость доставки на основе расстояния, типа доставки и способа упаковки, а также выводит стоимость на экран.",
+  "main": "src/index.js",
+  "homepage": " https://piniella-sergio.github.io/calculation-of-the-cost-of-delivery/",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/piniella-sergio/calculation-of-the-cost-of-delivery.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "module": "node server.js",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "calculating",
+    "cost",
+    "delivery"
+  ],
+  "author": {
+    "name": "Sergey Pinielle",
+    "email": "piniella.sergio@yandex.ru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
